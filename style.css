@@ -1,0 +1,169 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+body{
+  text-align: center;
+}
+.attribution{
+  padding-top: 50px;
+}
+.wraper{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+header{
+  justify-content: center;
+  text-align: center;
+  padding: 90px 0 80px;
+  display: flex;
+}
+h1, h3, p{
+  color: #212121;
+}
+h1{
+  font-weight: 200;
+}
+h1.strong{
+  font-weight: 600;
+}
+p{
+  font-size: 15px;
+  line-height: 24px;
+  color: hsl(229, 6%, 66%);
+}
+.bottom{
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+.first{
+  width: 425px;
+  height: 500px;
+}
+.second{
+  width: 425px;
+  height: 500px;
+  margin: 0 24px 0 24px;
+}
+.third{
+  width: 425px;
+  height: 500px;
+}
+.bottom1{
+        max-width: 310px;
+        display:flex;
+        flex-direction: column;
+        border-top: 4px solid hsl(180, 62%, 55%);
+        border-radius: 5px;
+        padding: 30px 30px 30px;
+        background-color: #fff;
+        box-shadow: 0 7px 16px #d7e0ea;        
+        margin-left: auto;
+        margin-top: 110px;
+}
+.bottom2-1{
+        max-width: 310px;
+        display:flex;
+        flex-direction: column;
+        border-top: 4px solid hsl(0, 78%, 62%);
+        border-radius: 5px;
+        padding: 30px 30px 30px;
+        background-color: #fff;
+        box-shadow: 0 7px 16px #d7e0ea;
+        margin: 0 auto;
+}
+.bottom2-2{
+        max-width: 310px;
+        display:flex;
+        flex-direction: column;
+        border-top: 4px solid hsl(34, 97%, 64%);
+        border-radius: 5px;
+        padding: 30px 30px 30px;
+        background-color: #fff;
+        box-shadow: 0 7px 16px #d7e0ea;
+        margin: 70px auto;
+}
+.bottom3{
+        max-width: 310px;
+        display:flex;
+        flex-direction: column;
+        border-top: 4px solid hsl(212, 86%, 64%);
+        border-radius: 5px;
+        padding: 30px 30px 30px;
+        background-color: #fff;
+        box-shadow: 0 7px 16px #d7e0ea;
+        margin-top: 110px;
+}
+img{
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px){
+  
+  .wraper{
+    display: inline-block;
+  }
+  .bottom{
+    display: inline-block;
+    height: auto;
+  }
+  .first{
+    margin-top: 0;
+    height: auto;
+  }
+  .bottom1{
+    margin: auto;
+    margin-top: 0;
+  }
+  .second{
+    margin: auto;
+    margin-top: 40px;
+    height: auto;
+  }
+  .bottom2-2{
+    margin: auto;
+    margin-top: 40px;
+  }
+  .third{
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .bottom3{
+    margin: auto;
+  }
+  footer{
+    padding-left: 50%;
+  }
+  
+}
+  
+
+
+
+
+
+
